@@ -4,8 +4,8 @@
 	height: 100vh;
 	border: 2px solid blue;
 	display: grid;
-	grid-template-columns: repeat(100px, 100px);
-	grid-template-row: repeat(100px, 100px);
+	grid-template-columns: repeat(100px 100px);
+	grid-template-row: repeat(100px 100px);
 	justify-content: center;
 	align-items: center;
 	
