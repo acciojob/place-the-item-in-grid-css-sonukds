@@ -1,2 +1,19 @@
-
 /* Your CSS Code here. */
+.holder{
+	/* width: 100vw; */
+	height: 100vh;
+	border: 2px solid blue;
+	display: grid;
+	grid-template-columns: repeat(2, 200px);
+	grid-template-row: repeat(2, 200px);
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid #fff; /* Optional: Add a border for visual separation */
+}
+
