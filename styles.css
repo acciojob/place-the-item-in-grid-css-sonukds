@@ -6,6 +6,8 @@
 	display: grid;
 	grid-template-columns: repeat(2, 100px);
 	grid-template-row: repeat(2, 100px);
+	justify-content: center;
+	align-items: center;
 }
 .item {
     display: flex;
