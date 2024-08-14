@@ -1,20 +1,15 @@
-/* Your CSS Code here. */
-.holder{
-	
-	height: 100vh;
-	border: 2px solid blue;
-	display: grid;
-	grid-template-columns: repeat(100px 100px);
-	grid-template-row: repeat(100px 100px);
-	justify-content: center;
-	align-items: center;
-	
-}
-.item {
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-	color: white;
-	
+.holder {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
+.item {
+  /* No specific properties required for the items, but you can add some if needed */
+  background-color: lightgray;
+  border: 1px solid #000;
+  text-align: center;
+  line-height: 100px; /* This makes the text vertically centered */
+}
