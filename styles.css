@@ -2,8 +2,8 @@
   display: grid;
   width: 200px;
   height: 200px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(100px 100px);
+  grid-template-rows: repeat(100px 100px);
 }
 
 .item {
